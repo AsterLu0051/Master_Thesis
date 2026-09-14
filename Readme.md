@@ -16,7 +16,7 @@ I designed a series of controlled experiments to investigate the positional and 
 
 The experiments examined how factors such as movement range, walking route, and environmental transitions affected alignment stability. The results were then used to identify conditions associated with larger spatial drift and to guide the subsequent stabilization design.
 
-![Experimental Setting](Readme_Assets\reference.jpg)
+![Experimental Setting](Readme_Assets/reference.jpg)
 
 ![Experimental Results](Readme_Assets/drift.jpg)
 
@@ -28,13 +28,13 @@ Based on the experimental observations, I investigated two approaches for improv
 
 **Periodic Anchor Reloading** - previously stored anchors are periodically reloaded to re-establish spatial references and reduce accumulated alignment error.
 
-![Improvements Design](Readme_Assets\Dense Anchor.jpg)
+![Improvements Design](Readme_Assets/Dense Anchor.jpg)
 
 I evaluated both approaches experimentally and integrated anchor storage/loading into the prototype.
 
-![Improved Result with Dense Anchors](Readme_Assets\with dense anchor.jpg)
+![Improved Result with Dense Anchors](Readme_Assets/with dense anchor.jpg)
 
-![Improved Result with Shared Anchors](Readme_Assets\with shared anchor.jpg)
+![Improved Result with Shared Anchors](Readme_Assets/with shared anchor.jpg)
 
 ### AOI / SOI Spatial Labeling
 
@@ -44,7 +44,7 @@ Areas of Interest (AOIs) provide volumetric regions for grouping and organizing 
 
 Both were integrated with spatial anchors to support persistent placement and retrieval of spatially organized content.
 
-![AOI and SOI Prefabs](Readme_Assets\Aoi and Soi.jpg)
+![AOI and SOI Prefabs](Readme_Assets/Aoi and Soi.jpg)
 
 ---
 
@@ -60,13 +60,13 @@ The prototype enables users to create, place, configure, and interact with spati
 
 I designed and implemented six representative spatial widgets to explore different forms of opportunistic interaction, including buttons, keyboards, drawing canvases, straight sliders, customised sliders, and media interfaces.
 
-![Widgets Authoring](Readme_Assets\Slider-Vis1.jpg)
+![Widgets Authoring](Readme_Assets/Slider-Vis1.jpg)
 
 ### Gesture Interaction
 
 I implemented mid-air gesture interactions to support widget creation, placement, manipulation, and interaction directly within the MR environment. This allowed the authoring workflow to remain headset-based without requiring external controllers or desktop authoring tools. 
 
-![Gesture Interaction](Readme_Assets\GestureGenerate.jpg)
+![Gesture Interaction](Readme_Assets/GestureGenerate.jpg)
 
 ### Reality-Based / Passive Haptic Interaction
 
@@ -76,7 +76,7 @@ To address this problem, I designed a touch-calibrated placement approach. Inste
 
 In this way, the authored interaction point is grounded in the user's actual physical contact with the environment. Even when small global alignment errors remain between the virtual and physical coordinate systems, the local interaction point can remain consistent with the physical surface, enabling more reliable passive haptic feedback.
 
-![OffsetCancelOut](Readme_Assets\OffsetCancelOut.png)
+![OffsetCancelOut](Readme_Assets/OffsetCancelOut.png)
 
 ---
 
