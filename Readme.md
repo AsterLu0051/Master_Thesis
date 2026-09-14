@@ -32,9 +32,9 @@ Based on the experimental observations, I investigated two approaches for improv
 
 I evaluated both approaches experimentally and integrated anchor storage/loading into the prototype.
 
-![Improved Result with Dense Anchors](Readme_Assets/with dense anchor.jpg)
+![Improved Result with Dense Anchors](Readme_Assets/with_dense anchor.jpg)
 
-![Improved Result with Shared Anchors](Readme_Assets/with shared anchor.jpg)
+![Improved Result with Shared Anchors](Readme_Assets/with_shared_anchor.jpg)
 
 ### AOI / SOI Spatial Labeling
 
@@ -44,7 +44,7 @@ Areas of Interest (AOIs) provide volumetric regions for grouping and organizing 
 
 Both were integrated with spatial anchors to support persistent placement and retrieval of spatially organized content.
 
-![AOI and SOI Prefabs](Readme_Assets/Aoi and Soi.jpg)
+![AOI and SOI Prefabs](Readme_Assets/Aoi_and_Soi.jpg)
 
 ---
 
